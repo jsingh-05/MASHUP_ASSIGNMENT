@@ -1,0 +1,19 @@
+# Media files
+downloads/
+audio_tracks/
+segments/
+processing/
+
+# Cache
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Audio formats
+*.wav
+*.mp3
+
+# Environment variables
+.env

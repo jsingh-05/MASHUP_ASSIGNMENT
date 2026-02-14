@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audio Mashup Automation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f4f8;
+            text-align: center;
+            padding-top: 50px;
+        }
+
+        .card {
+            background: white;
+            width: 420px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        input {
+            width: 95%;
+            padding: 8px;
+            margin: 10px 0;
+        }
+
+        button {
+            padding: 10px 20px;
+            background: #0066cc;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #004999;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <h2>🎵 Audio Mashup Automation</h2>
+        <form method="POST">
+            <input type="text" name="singer" placeholder="Artist Name" required>
+            <input type="number" name="videos" min="11" placeholder="Number of Videos (min 11)" required>
+            <input type="number" name="duration" min="21" placeholder="Clip Duration (min 21 sec)" required>
+            <input type="email" name="email" placeholder="Your Email Address" required>
+            <br>
+            <button type="submit">Generate Mashup</button>
+        </form>
+    </div>
+</body>
+</html>
